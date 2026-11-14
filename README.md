@@ -1,5 +1,7 @@
 # Aegis Purple Team Terminal
 
+<p align="center"><img src="public/assets/aegis-logo.png" alt="Aegis Purple Team Terminal logo" width="220" /></p>
+
 A browser-based purple-team training terminal: a simulated security operations environment where red-team tools meet blue-team analysis — an interactive terminal, a dashboard, and working simulators for packet analysis and web proxy work, with a Gemini-powered intelligence layer ("TMI").
 
 ## What's inside
@@ -38,4 +40,12 @@ Originally built in Google AI Studio: https://ai.studio/apps/drive/1dmWFBV9w9c3K
 
 ## Asset note
 
-The app references 8 images in `public/assets/` (promo art and tool screenshots, ~7 MB total: aegis-promo.png, cyber-merger.jpeg, market-map.png, cli-terminal.png, tool3-recon.png, tool4-wireshark.png, tool5-terminal.png, aegis-glitch.jpeg). They are part of the local project copy; see the repo history/notes for how they were handled on upload.
+The app references 8 images in `public/assets/` (promo art and tool screenshots, ~7 MB total: aegis-promo.png, cyber-merger.jpeg, market-map.png, cli-terminal.png, tool3-recon.png, tool4-wireshark.png, tool5-terminal.png, aegis-glitch.jpeg).
+
+Brand artwork (added 2026-11-13, in `public/assets/`):
+
+| File | What it is |
+| --- | --- |
+| `aegis-logo.png` | App logo — split red/blue shield with dual hard-hat profiles and terminal prompt |
+| `aegis-shield-art.jpg` | Street-art style shield illustration with red/blue security iconography |
+| `aegis-red-blue-infinity.jpg` | Red Team / Blue Team infinity poster ("Offense Mastery" / "Detection Skills") |
