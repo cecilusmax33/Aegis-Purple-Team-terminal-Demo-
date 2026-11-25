@@ -49,3 +49,9 @@ Brand artwork (added 2026-11-13, in `public/assets/`):
 | `aegis-logo.png` | App logo — split red/blue shield with dual hard-hat profiles and terminal prompt |
 | `aegis-shield-art.jpg` | Street-art style shield illustration with red/blue security iconography |
 | `aegis-red-blue-infinity.jpg` | Red Team / Blue Team infinity poster ("Offense Mastery" / "Detection Skills") |
+
+## Repository notes
+
+| Date | Change |
+| --- | --- |
+| 2026-11-25 | Added `wrangler.json` with a Cloudflare R2 bucket binding (`R2` → bucket `my-bucket`), at Cecil's direction, in preparation for possible Cloudflare-side storage. Note: the app currently deploys as a static Vite build on Vercel (`vercel.json`); the R2 binding only takes effect if the project is deployed through Cloudflare Workers/Pages, and the `my-bucket` bucket must exist in the Cloudflare account for the binding to resolve. |
