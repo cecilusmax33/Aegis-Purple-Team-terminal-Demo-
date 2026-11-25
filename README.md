@@ -54,4 +54,4 @@ Brand artwork (added 2026-11-13, in `public/assets/`):
 
 | Date | Change |
 | --- | --- |
-| 2026-11-25 | Added `wrangler.json` with a Cloudflare R2 bucket binding (`R2` → bucket `my-bucket`), at Cecil's direction, in preparation for possible Cloudflare-side storage. Note: the app currently deploys as a static Vite build on Vercel (`vercel.json`); the R2 binding only takes effect if the project is deployed through Cloudflare Workers/Pages, and the `my-bucket` bucket must exist in the Cloudflare account for the binding to resolve. |
+| 2026-11-25 | Added `wrangler.json` with a Cloudflare R2 bucket binding (`R2` → bucket `my-bucket`), then removed it the same day at Cecil's direction — the bucket plan was cancelled. The app continues to deploy as a static Vite build on Vercel (`vercel.json`). |
