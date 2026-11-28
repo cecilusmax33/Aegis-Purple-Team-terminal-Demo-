@@ -1,6 +1,8 @@
 # Aegis Purple Team Terminal
 
-<p align="center"><img src="public/assets/aegis-logo.png" alt="Aegis Purple Team Terminal logo" width="220" /></p>
+<p align="center"><img src="src/public/assets/2Aegis%20Terminal%20promo_383vtv383vtv383v.png" alt="Aegis Purple Team Terminal artwork" width="640" /></p>
+
+_The logo file itself (`public/assets/aegis-logo.png`) is a binary upload still pending placement in `public/assets/`; the banner above is artwork already in this repository._
 
 A browser-based purple-team training terminal: a simulated security operations environment where red-team tools meet blue-team analysis — an interactive terminal, a dashboard, and working simulators for packet analysis and web proxy work, with a Gemini-powered intelligence layer ("TMI").
 
@@ -49,6 +51,65 @@ Brand artwork (added 2026-11-13, in `public/assets/`):
 | `aegis-logo.png` | App logo — split red/blue shield with dual hard-hat profiles and terminal prompt |
 | `aegis-shield-art.jpg` | Street-art style shield illustration with red/blue security iconography |
 | `aegis-red-blue-infinity.jpg` | Red Team / Blue Team infinity poster ("Offense Mastery" / "Detection Skills") |
+
+## Visual overview
+
+### Project layout
+
+```mermaid
+flowchart TD
+    U["Trainee - browser"] --> APP["Vite and React app"]
+    APP --> TERM["Terminal - multi-session, 8 themes"]
+    APP --> DASH["Dashboard - sessions and scenarios"]
+    APP --> WS["Wireshark simulator"]
+    APP --> PCAP["PCAP analyzer"]
+    APP --> BURP["Burp Suite simulator"]
+    APP --> GAME["Legacy terminal game"]
+    TERM --> TMI["TMI intelligence layer - Gemini via VITE_API_KEY"]
+    APP --> PERSIST["Persistence service - browser storage"]
+```
+
+### Mindmap
+
+```mermaid
+mindmap
+  root((Aegis Purple Team Terminal))
+    Training environment
+      Red team tools
+      Blue team analysis
+      Purple team workflow
+    Terminal
+      Multi-session
+      Split modes
+      8 themes
+    Simulators
+      Wireshark
+      PCAP analyzer
+      Burp Suite
+    Intelligence
+      TMI - Gemini layer
+      Intel reports
+    Artwork
+      Logo and shield art
+      Tool screenshots
+```
+
+### Screenshots and artwork
+
+The artwork below is already in this repository under `src/public/assets/` (uploaded directly; the app itself serves assets from `public/assets/`, so these files are the gallery copies until they are also placed there).
+
+<p align="center"><img src="src/public/assets/cyber-merger.jpeg" alt="Cyber merger artwork" width="640" /></p>
+
+<p align="center"><img src="src/public/assets/market-map.png" alt="Market map artwork" width="640" /></p>
+
+<p align="center"><img src="src/public/assets/Aegis%20Terminal%20Tool3-Example_ve9k2eve9k2eve9k.png" alt="Tool screenshot - recon" width="640" /></p>
+
+<p align="center"><img src="src/public/assets/tool4%20Gemini_Generated_Image_ve9k2eve9k2eve9k.png" alt="Tool screenshot - Wireshark simulator" width="640" /></p>
+
+<p align="center"><img src="src/public/assets/tool5%20Gemini_Generated_Image_jx1s35jx1s35jx1s.png" alt="Tool screenshot - terminal" width="640" /></p>
+
+<p align="center"><img src="src/public/assets/aegis-glitch.jpeg" alt="Aegis glitch artwork" width="400" /></p>
+
 
 ## Repository notes
 
